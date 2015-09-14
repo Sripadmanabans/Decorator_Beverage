@@ -6,7 +6,7 @@ package base;
  */
 public abstract class Beverage {
 
-    private String description = "Unknown Beverage";
+    protected String description = "Unknown Beverage";
 
     public String getDescription() {
         return description;
